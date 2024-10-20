@@ -1,7 +1,16 @@
 
-body {
-  margin: 0;
-  padding: 0;
+.logo{
+  height: 50px;
+}
+
+.parallax2{
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo{
+      height: 30px;
+  }
 }
 .navbar-brand{
  font-size: 18px;
@@ -82,16 +91,6 @@ body {
   display: flex; 
 }
 
-.side-icon, .side-icon2, .side-icon3 {
-  display: flex;
-  padding-top: 50px;
-  align-items: center; 
-  text-align: center; 
-  padding-left: 120px;
-  padding-right: 100px;
-  padding-bottom: 15px;
-}
-
 .side-icon img, .side-icon2 img, .side-icon3 img {
   width: 120px; 
   height: 80px; 
@@ -145,15 +144,6 @@ color: white;
   text-align: center;
 }
 
-.footer {
-  height: 160px; /* Set height to 500px */
-  display: flex; /* Use flexbox to align items */
-  flex-direction: column; /* Arrange children in a column */
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  text-align: center; /* Center text */
- margin-top: 100px;
-}
 
 
 
