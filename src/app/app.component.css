@@ -12,7 +12,7 @@
       height: 30px;
   }
 }
-.navbar-brand{
+/* .navbar-brand{
  font-size: 18px;
  color: black;
  justify-content: space-between;
@@ -52,7 +52,7 @@
 }
 .navbar .navbar-nav .custm .nav-link{
   color: aliceblue;
-}
+} */
 /*floating*/
 .floating-button ul{
   list-style: none;
@@ -61,11 +61,6 @@
   font-size: 14px;
 }
 
-@media (max-width: 768px) {
-  .floating-button .poppins{
-    display: none;
-  }
-}
 .floating-button{
   width: calc(100% - 32px);
   
@@ -97,6 +92,29 @@
  
   margin-left: 77px;
 }
+.Category{
+  background-color: white;
+   padding-top: 50px;
+    padding-bottom: 50px;
+     margin: 0px 77px;
+}
+@media (max-width: 768px) {
+  .floating-button .poppins{
+    display: none;
+  }
+  .side-icon img, .side-icon2 img, .side-icon3 img {
+    width: 120px; 
+    height: 80px; 
+    margin-left: 0px;
+  }
+  .Category{
+    background-color: white;
+     padding-top: 50px;
+      padding-bottom: 50px;
+       margin: 0px 10px;
+  }
+  
+}
 
 .side-icon h1, .side-icon2 h1, .side-icon3 h1{
 font-size: 18px;
@@ -111,11 +129,6 @@ margin: 0px 0px 8px;
   background-color: #198754;
   padding-left: 50px;
   padding-right: 50px;
-}
-
-.headerbox{
-  background-color: #198754;
-  display: flex;
 }
 .advantage-box1{
 
