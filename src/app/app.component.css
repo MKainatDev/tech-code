@@ -3,8 +3,8 @@
   height: 50px;
 }
 .navbar-brand{
-  margin-left: 60px;
-  height: 100%;
+  margin-left: 50px;
+  height: 70px;
 }
 
 .parallax2{
@@ -18,6 +18,10 @@
   .navbar-nav .nav-link{
     padding-left: 20px;
   }
+  .nav-item .custm{
+margin-right: 20px;
+  }
+  
 }
 .navbar .navbar-nav .nav-item {
   margin: 15px;
@@ -110,9 +114,7 @@
 .side-icon img, .side-icon2 img, .side-icon3 img {
   width: 120px; 
   height: 80px; 
-   
- 
-  margin-left: 77px;
+   margin-left: 77px;
 }
 .Category{
   background-color: white;
