@@ -61,6 +61,11 @@
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  .floating-button .poppins{
+    display: none;
+  }
+}
 .floating-button{
   width: calc(100% - 32px);
   
@@ -68,14 +73,12 @@
   background-position: right center;
   margin: 0 16px;
  box-sizing: border-box;
+ 
 }
 .image-content h3{
   line-height: 46px;
   font-size: 39px;
- 
 }
-
-
 /*containerreader*/
 
 .container-reader {
