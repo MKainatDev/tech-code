@@ -74,16 +74,12 @@
   font-size: 39px;
  
 }
-.row{
-  display: flex;
-    flex-wrap: wrap;
 
-}
 
 /*containerreader*/
 
 .container-reader {
-  padding: 20px; 
+ 
   background-color: white;
   padding-left: 20px;
 }
@@ -94,19 +90,18 @@
 .side-icon img, .side-icon2 img, .side-icon3 img {
   width: 120px; 
   height: 80px; 
-  margin-bottom: 10px; 
-  vertical-align: middle;
-  
+   
+ 
+  margin-left: 77px;
 }
-.container-reader .col-sm-4{
-  flex-direction: row;
 
-  display: flex;
-}
 .side-icon h1, .side-icon2 h1, .side-icon3 h1{
 font-size: 18px;
-text-align: start;
+float: right;
+margin: 0px 0px 8px;
+
 }
+
 
 /*3box*/
 .container1{
