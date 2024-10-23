@@ -1,0 +1,19 @@
+.container1{
+    background-color: #198754;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .advantage-box1{
+  
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+  
+  .row3{
+    display: flex;
+    background-color: #198754 ;
+    padding-left: 20px;
+  }
