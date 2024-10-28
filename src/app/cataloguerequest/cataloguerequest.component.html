@@ -16,24 +16,36 @@
 <div class="container">
     <div class="col-md-8">
       
-        <form>
+        <form #regdata="ngForm"(ngSend)="send(regdata)">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputName">Name</label>
-                <input type="Name" class="form-control" id="inputName" placeholder="Enter Name">
+                <input type="text" class="form-control" id="inputName" placeholder="Enter Name" name="name" required ngModel #name="ngModel">
+              <span *ngIf="name.touched && !name.valid" style="color: red;">
+                 *Name is required
+              </span>
               </div>
               <div class="form-group col-md-6">
                 <label for="inputEmail">Email</label>
-                <input type="Email" class="form-control" id="inputEmail" placeholder="Enter Email">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Enter Email" name="email" required ngModel #email="ngModel">
+                <span *ngIf="email.touched &&!email.valid" style="color: red;">
+                  *Email is required
+               </span>
               </div>
             </div>
             <div class="form-group">
               <label for="inputContact">Contact</label>
-              <input type="Enter Contact" class="form-control" id="inputContact" placeholder="Enter Contact">
+              <input type="text" class="form-control" id="inputContact" placeholder="Enter Contact" name="contact" required ngModel #contact="ngModel">
+              <span *ngIf="contact.touched && !contact.valid" style="color: red;">
+                *Contact is required
+             </span>
             </div>
             <div class="form-group">
               <label for="inputMessage">Message</label>
-              <input type="text" style="padding-bottom: 80px; padding-top: 20px;"   class="form-control" id="inputMessage" placeholder="Enter Message">
+              <input type="text" style="padding-bottom: 80px; padding-top: 20px;"   class="form-control" id="inputMessage" placeholder="Enter Message" mesaage="message" required ngModel #message="ngModel">
+              <span *ngIf="!message.valid">
+                Message is required !!
+             </span>
             </div>
             
            <div class="button">
