@@ -15,7 +15,7 @@ regdata:FormGroup;
 constructor(private _formBuilder: FormBuilder){
   this.regdata = this._formBuilder.group({
     name:['',Validators.required],
-    email:['',Validators.compose,([Validators.required,Validators.email])],
+    email:['',Validators.required],
     contact:['',Validators.required],
     message:['',Validators.required],
   })
