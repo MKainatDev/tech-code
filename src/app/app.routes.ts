@@ -13,5 +13,6 @@ export const routes: Routes = [
     {path:'whychooseus',component:WhychooseusComponent},
     {path:'contactus',component:ContactusComponent},
     {path:'aboutus',component:AboutUsComponent},
-    {path:'cataloguerequest',component:CataloguerequestComponent}
+    {path:'cataloguerequest',component:CataloguerequestComponent},
+    {path:'contact-us',component:ContactusComponent}
 ];
