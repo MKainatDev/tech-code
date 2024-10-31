@@ -1,15 +1,17 @@
-.fade-down {
-  opacity: 0;
-  transform: translateY(-20px);
-  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+
+.poppins{
+  position: relative;
+  animation-name: fade-right;
+  animation-duration: 2s;
 }
-
-.fade-down.visible {
-  opacity: 1;
-  transform: translateY(5);
+@keyframes fade-right {
+  from {
+    right: 25%;
+  }
+  to {
+    right: 0%;
+  }
 }
-
-
 .logo{
     height: 50px;
   }
@@ -112,6 +114,7 @@
     font-size: 39px;
   }
   /*containerreader*/
+   
   
   .container-reader {
    
