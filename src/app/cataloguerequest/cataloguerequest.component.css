@@ -1,6 +1,9 @@
+
 @media(max-width: 576px){
     .form-group{
         margin-bottom: 15px;
+        justify-content: center;
+        align-items:self-end
     }
 }
 @media (min-width: 1200px) {

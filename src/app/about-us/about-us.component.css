@@ -26,19 +26,19 @@
       font-size: 16px;
       cursor: pointer; 
       transition: background-color 0.3s, color 0.3s; 
-      box-shadow:  0 4px 6px rgb(15, 64, 197), /* Bottom shadow */
-      0 -4px 6px rgb(15, 64, 197), /* Top shadow */
-      4px 0 6px rgb(15, 64, 197), /* Right shadow */
-      -4px 0 6px rgb(15, 64, 197); /* Left shadow */
+      box-shadow:  0 4px 6px rgb(15, 64, 197), 
+      0 -4px 6px rgb(15, 64, 197),
+      4px 0 6px rgb(15, 64, 197), 
+      -4px 0 6px rgb(15, 64, 197);
     }
     .enq-btn:hover {
-      background-color: #084db6; /* Maintain yellow background on hover */
-      color: white; /* White text on hover */
+      background-color: #084db6; 
+      color: white;
     }
     
     .enq-btn:active {
-      background-color: blue; /* Background color on click */
-      color: white; /* Text color on click */
+      background-color: blue; 
+      color: white; 
     }
     
     
