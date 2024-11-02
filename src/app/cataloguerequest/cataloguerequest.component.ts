@@ -10,17 +10,17 @@ import { FormBuilder, FormControl, FormGroup, FormsModule, NgForm, Validators } 
   templateUrl: './cataloguerequest.component.html',
   styleUrl: './cataloguerequest.component.css'
 })
-export class CataloguerequestComponent  {
+export class CataloguerequestComponent {
 regdata:FormGroup;
 constructor(private _formBuilder: FormBuilder){
   this.regdata = this._formBuilder.group({
     name:['',Validators.required],
-    email:['',Validators.required],
+    email:['',Validators.required,Validators.email],
     contact:['',Validators.required],
     message:['',Validators.required],
   })
 }
-ngOnInit():void{
+ngOnInit():any{
   this.regdata=new FormGroup({
     name:new FormControl(),
     email:new FormControl(),

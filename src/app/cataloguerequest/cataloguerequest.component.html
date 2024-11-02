@@ -17,7 +17,7 @@
 <div class="container ">
   <div class="form-container">
     
-      <form #regdata="ngForm"(ngSend)="send(regdata)">
+      <form #regdata="ngForm"(ngSend)="send(regdata);">
           <div class="form-row" style="width: 100%; padding-left: 15px; padding-right: 5px;">
             <div class="form-group col-12 col-md-6">
               <label for="inputName">Name</label>
@@ -42,15 +42,15 @@
            </span>
           </div>
           <div class="form-group col-12">
-            <label for="inputMessage">Message</label>
-            <input type="text" style="padding-bottom: 80px; padding-top: 20px; "   class="form-control" id="inputMessage" placeholder="Enter Message" name="message" required ngModel #message="ngModel">
+            <label for="exampleFormControlMessage">Message</label>
+            <textarea class="form-control" id="exampleFormControlMessage" rows="3" placeholder="Enter Message" name="message" required ngModel #message="ngModel"></textarea>
             <span *ngIf="message.touched && !message.valid" style="color: red;">
               *Message is required
            </span>
           </div>
           
          <div class="button">
-          <button type="submit" class="btn">Send Catalogue Request</button>
+          <button type="send" class="btn">Send Catalogue Request</button>
       </div>
         </form>
     
