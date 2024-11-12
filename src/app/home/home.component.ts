@@ -3,6 +3,8 @@ import { RouterLink } from '@angular/router';
 import AOS from 'aos';
 import { ProductsComponent } from '../products/products.component';
 import { CommonModule } from '@angular/common';
+
+import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-home',
   standalone: true,
