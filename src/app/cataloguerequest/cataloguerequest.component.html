@@ -17,7 +17,7 @@
 <div class="container ">
   <div class="form-container">
     
-      <form #regdata="ngForm"(ngSend)="send(regdata);">
+      <form #regdata="ngForm"(ngsubmit)="send(regdata);">
           <div class="form-row" style="width: 100%; padding-left: 15px; padding-right: 5px;">
             <div class="form-group col-12 col-md-6">
               <label for="inputName">Name</label>
@@ -50,7 +50,7 @@
           </div>
           
          <div class="button">
-          <button type="send" class="btn">Send Catalogue Request</button>
+          <button type="submit" class="btn">Send Catalogue Request</button>
       </div>
         </form>
     

@@ -9,6 +9,7 @@
   .navbar-brand{
     margin-left: 50px;
     height: 70px;
+    padding-top: 10px;
   }
   
   .parallax2{
@@ -17,7 +18,7 @@
   
   @media (max-width: 768px) {
     .logo{
-        height: 40px;
+        height: 30px;
     }
     .navbar-nav .nav-link{
       padding-left: 20px;
@@ -29,7 +30,8 @@
   }
   .navbar .navbar-nav .nav-item {
     margin: 15px;
-    font-size: 15px;
+    padding-top: 10px;
+    font-size: 13px;
     font-family: 'Lucida Sans', sans-serif;
     justify-content: space-between;
   }
@@ -39,6 +41,7 @@
   .navbar .navbar-nav .custm .nav-link{
     color: aliceblue;
   }
+  
 
 
 

@@ -38,7 +38,7 @@
   }
   .navbar .navbar-nav .nav-item {
     margin: 15px;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Lucida Sans', sans-serif;
     justify-content: space-between;
   }
@@ -193,7 +193,7 @@
   }
   
   .enq-btn {
-    background-color: rgba(33, 37, 41, 0.75);
+    background-color: #234fa0;
     border-color: #234fa0;
     color: white; 
     border: none; 

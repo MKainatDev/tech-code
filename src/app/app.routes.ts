@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { CataloguerequestComponent } from './cataloguerequest/cataloguerequest.component';
 
 export const routes: Routes = [
+    {path:'',redirectTo:'/home',pathMatch: 'full'},
     {path:'home',component:HomeComponent},
     {path:'products',component:ProductsComponent},
     {path:'whychooseus',component:WhychooseusComponent},
