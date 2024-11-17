@@ -1,0 +1,32 @@
+
+@media (max-width: 768px) {
+ 
+  .product {
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
+   
+  }
+  .row2 {
+    display: flex;              
+    flex-direction: column;      
+  }
+}
+
+.product{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+}
+.row{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.white-section{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.row2{
+  padding-top: 8px; 
+  padding-bottom: 70px;  
+   display: flex;
+}
